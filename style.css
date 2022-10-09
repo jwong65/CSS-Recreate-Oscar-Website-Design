@@ -45,6 +45,10 @@ h1{
     font-size: 5em;
 }
 /*SECTION */
+.fillingtitle{
+    text-align: center;
+    border-top: 7px solid red;
+}
 section{
     display:flex;
     width:100%;
@@ -58,13 +62,12 @@ img{
     width:400px;
     height: 400px;
 }
-.fillingtitle{
-    text-align: center;
-}
+/*Footer tag */
 footer{
     margin: 15px;
     text-align: justify;
 }
+/*Supposed mobile view */
 @media (min-width:600px){
     
 }
