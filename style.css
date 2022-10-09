@@ -1,12 +1,13 @@
+*{
+    border:1px solid purple;
+}
 ul{
     list-style: none;
     padding: 10px;
     text-align: center;
 }
-label{
-    text-align: left;
-}
 label, select, input{
+    text-align: left;
     display:block;
     margin: 10px;
 }
@@ -39,4 +40,11 @@ img{
 }
 .fillingtitle{
     text-align: center;
+}
+footer{
+    margin: 15px;
+    text-align: justify;
+}
+@media (min-width:600px){
+    
 }
