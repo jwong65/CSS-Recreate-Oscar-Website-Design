@@ -17,12 +17,12 @@ header>h1{
     width:50%;
     text-align: center;
 }
-.container{
+section{
     width:100%;
     display:flex;
     margin: 3em;
 }
-.container>div{
+section>div{
     flex-grow:1;
 }
 img{
