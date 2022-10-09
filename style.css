@@ -9,7 +9,6 @@ label{
 label, select, input{
     display:block;
     margin: 10px;
-    border: 1px black solid;
 }
 li{
     display: inline;
