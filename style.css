@@ -1,11 +1,27 @@
 *{
     border:1px solid purple;
 }
+/* NAV */
 ul{
     list-style: none;
     padding: 10px;
     text-align: center;
 }
+
+li{
+    display: inline;
+    margin: 1em;
+}
+
+/* Input box */
+
+.fillbox{
+    margin: auto;
+    border: 1px solid green;
+    width:50%;
+    text-align: center;
+}
+
 .input{
     display: inline-block;
 }
@@ -14,23 +30,24 @@ label, select, input{
     display:block;
     margin: 10px;
 }
-li{
-    display: inline;
-    margin: 1em;
+
+/* Header */
+header{
+    margin: auto;
+    display: flex;
+    background-color: aquamarine;
 }
-header>h1{
+h1{
+    margin: auto;
+    width: 50%;
+    padding:1em;
     text-align: center;
     font-size: 5em;
 }
-.fillbox{
-    margin: auto;
-    border: 1px solid green;
-    width:50%;
-    text-align: center;
-}
+/*SECTION */
 section{
-    width:100%;
     display:flex;
+    width:100%;
     margin: 3em;
 }
 section>div{
