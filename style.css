@@ -4,7 +4,11 @@ ul{
     text-align: center;
 }
 label{
-    margin:3em;
+    margin:1px;
+    text-align: left;
+}
+label, select, input{
+    display:block;
 }
 li{
     display: inline;
